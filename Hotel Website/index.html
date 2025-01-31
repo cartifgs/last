@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHRIS' SUITES</title>
+  <style>
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      height: 1100px;
+    }
+
+    a{
+      text-decoration: none;
+      color: #000;
+    }
+
+    p{
+      margin: 10px 0px;
+      line-height: 1.7;
+    }
+
+    h1{
+      font-size: 27px;
+    }
+
+    h3 {
+      padding: 10px 0px;
+    }
+
+    .container {
+      margin: auto;
+      max-width: 1100px;
+      overflow: auto;
+      padding: 0px 20px;
+    }
+
+    #navbar{
+      background-color: black;
+      color: #fff;
+      /* text-align: center; */
+      overflow: auto;
+    }
+
+    #navbar a{
+      color: #fff;
+    }
+
+    ul {
+      list-style: none;
+      /* font-size: 20px; */
+    }   
+
+    #navbar h1 {
+      float: left;
+      padding-top: 20px;
+    }
+
+    #navbar ul {
+      float: right;
+      list-style: none;
+    }
+
+    #navbar ul li {
+      float: left;
+    }
+
+    #navbar ul li a{
+      display: block;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #navbar li:hover{
+      background-color: #1f1c1c;
+      color: rgb(110, 53, 53);
+    }
+
+    #showcase {
+      background: url(../img/showcase.jpg) no-repeat center center/cover;
+      color: whitesmoke;
+    }
+
+    #showcase h1{
+      font-size: 60px;
+    }
+
+    .showcase-content{
+      padding: 170px 20px;
+      text-align: center;
+    }
+
+    .showcase-content h1{
+      padding-bottom: 30px;
+    }
+
+    .showcase-content p{
+      font-size: 18px;
+    }
+
+    .btn {
+      background: #1f1c1c;
+      color: whitesmoke;
+      padding: 10px 50px;
+      display: inline-block;
+    }
+
+    .btn:hover{
+      background: #fff;
+      color: #000;
+    }
+
+    .primary-text{
+      color: #1f1c1c;
+    }
+
+    #main-content {
+      height: 400px;
+    }
+
+    #main-content .img {
+      float: left;
+      width: 50%;
+      background: url('../img/photo-1.jpg') no-repeat;
+      min-height: 100%;
+    }
+
+    #main-content .content {
+      float: right;
+      width: 50%;
+      min-height: 100%;
+      color: #fff;
+      text-align: center;
+      padding-top: 30px;
+    }
+
+    #main-content .content h2{
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    #main-content .content p{
+      padding-top: 15px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    #main-content .content ul li{
+      padding: 13px 20px;
+      text-align: center;
+      border-bottom: 1px dotted #444;
+    }
+
+    #boxes .box {
+      width: 33.3%;
+      float: left;
+      text-align: center;
+      padding: 50px;
+    }
+   
+    .bg-dark {
+  background: #2c18189f;
+  color: #f4f4f4;
+    }
+
+    .bg-light {
+      background-color: #ad793d;
+      color: #f4f4f4;
+    }
+    
+    #boxes img{
+      width: 100px;
+      text-align: center;
+    }
+
+    .clr {
+      clear: both;
+    }
+
+    #main-footer{
+      text-align: center;
+      background: #000;
+      color: #f4f4f4;
+      padding: 20px;
+    }
+
+    
+
+  </style>
+</head>
+
+  <body>
+    <header>
+      <nav id="navbar">
+          <div class="container">
+            <h1 class="logo" ><a href="hotel_practice.html">CS</a></h1>
+            <ul>
+              <li><a href="hotel_practice.html">Home</a></li>
+              <li><a href="hotel_practice.html">About</a></li>
+              <li><a href="hotel_practice.html">Contact</a></li>
+            </ul>
+          </div>
+       </nav>
+
+       <div id="showcase">
+        <div class="container">
+          <div class="showcase-content">
+            <h1>Welcome <span class="primary-text">Home</span></h1>
+            <p>Welcome to Chris' Suit, A place to rest and give the best! Dive right in to check out the beautiful offers. Don't forget, anywhere you can rest is where you call home, Lets give you a wonderful home!</p>
+            <a class="btn" href="hotel_practice.html">Offers</a>
+          </div>
+        </div>
+       </div>
+    </header>
+
+    <section id="main-content" class="bg-dark">
+        <div class="img"></div>
+        <div class="content">
+          <h2>What do we <span class="primary-text">Offer?</span></h2>
+          <ul>
+            <li><a href="hotel_practice.html">Mini Suit for....$50</a></li>
+            <li><a href="hotel_practice.html">Deluxe Suit.....$100</a></li>
+            <li><a href="hotel_practice.html">Master Suit.....$350</a></li>
+            <li><a href="hotel_practice.html">Executive Suit.....$500</a></li>
+          </ul>
+          <p>click on the link below to see more offers</p>
+          <a class="btn" href="hotel_practice.html">Read More</a>
+        </div>
+    </section>
+
+    <section id="boxes">
+      <div class="box"> <img src="../icon/dumbbell-solid.svg" alt="">
+        <h3>Location</h3>
+        <p>Onsite location at No. 3 Shackleford street, Ebute-metta, Lagos, Nigeria</p></div>
+      <div class="box bg-light"><img src="../icon/utensils-solid.svg" alt="">
+        <h3>Meals</h3>
+        <p>You can always bank on us to give you the best meals including the complementary dish!</p></div>
+      <div class="box"><img src="../icon/dumbbell-solid.svg" alt="">
+        <h3>Gym</h3>
+        <p>Check out our gym, Loads of equipments to build your muscles after a good rest.</p></div>
+    </section>
+
+    <div class="clr"></div>
+
+    <footer id="main-footer">
+      <p class="no">CHRIS' SUITES &copy;2025 All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
